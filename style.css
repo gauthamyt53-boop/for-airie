@@ -9,7 +9,7 @@ scroll-behavior:smooth;
 body{
 background:linear-gradient(135deg,#09090f,#17132d,#24173d);
 color:white;
-overflow-x:hidden;
+overflow: visible;
 }
 
 .hidden{
