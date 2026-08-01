@@ -15,8 +15,9 @@ start.onclick=()=>{
 };
 
 openBtn.onclick=()=>{
- flap.style.transform="rotateX(180deg)";
- openBtn.innerText="Opened ❤️";
+ flap.style.transform="rotateX(-180deg)";
+ flap.style.transition="1s";
+ openBtn.style.display="none";
 };
 
 let playing=false;
