@@ -32,7 +32,7 @@ musicBtn.onclick=()=>{
 };
 
 surpriseBtn.onclick=()=>{
- surprise.classList.remove("hidden");
+ surprise.classList.add("show");
 };
 
 function createHearts(){
