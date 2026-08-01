@@ -172,12 +172,16 @@ margin-bottom:20px;
 position:fixed;
 inset:0;
 background:black;
-display:flex;
+display:none;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
 z-index:999;
+}
+
+#surprise.show{
+display:flex;
 }
 
 #surprise h1{
