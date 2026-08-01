@@ -102,15 +102,16 @@ transform-origin:top;
 }
 
 .letter{
-position:absolute;
+position:relative;
 background:white;
 color:#333;
 width:90%;
-left:5%;
-top:25%;
-padding:18px;
-border-radius:10px;
-line-height:1.7;
+margin:auto;
+padding:30px;
+border-radius:15px;
+line-height:1.9;
+font-size:17px;
+z-index:2;
 }
 
 .photos{
