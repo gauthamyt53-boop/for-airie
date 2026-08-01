@@ -79,13 +79,14 @@ opacity:.8;
 
 #envelope{
 margin:auto;
-width:320px;
-height:220px;
+width:380px;
+min-height:420px;
 background:#ffcadf;
-border-radius:8px;
+border-radius:15px;
 position:relative;
-overflow:hidden;
+overflow:visible;
 box-shadow:0 20px 40px rgba(0,0,0,.35);
+padding-top:40px;
 }
 
 .flap{
