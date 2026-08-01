@@ -54,3 +54,8 @@ function createHearts(){
    setTimeout(()=>h.remove(),6000);
  },400);
 }
+const closeSurprise = document.getElementById("closeSurprise");
+
+closeSurprise.onclick = () => {
+    surprise.classList.remove("show");
+};
